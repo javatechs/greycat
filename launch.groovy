@@ -1,30 +1,42 @@
 def cat =ScriptingEngine.gitScriptRun(	"https://github.com/OperationSmallKat/SmallKat_V2.git", 
-								"loadRobot.groovy", 
-								["https://github.com/javatechs/greycat.git",
-								"MediumKat.xml","GameController_22","hidDevice"]);
+								"loadRobot.groovy",
+                                        [
+								"https://github.com/javatechs/greycat.git"
+								,"MediumKat.xml"
+								,"GameController_22"
+								,"hidDevice"
+								]);
 println "Cat loaded, searching for game controller"
+//println "*** LAUNCH SCRIPT EXIT ***"
+//return
 def gameController =null
 try{
 	 gameController = ScriptingEngine.gitScriptRun(
-	            "https://gist.github.com/e26c0d8ef7d5283ef44fb22441a603b8.git", // git location of the library
+	            "https://gist.github.com/javatechs/a3c57bf6e54b60d1f4d773c9c7c14b52", // git location of the library
 	            "LoadGameController.groovy" , // file to load
 	            // Parameters passed to the function
 	            ["GameController_22"]
 	            );
       println "Game controller instantiated"
 }catch (Exception ex) {
-	println "Game controller instantiation exception!"
-	// TODO Prints to stderr. Terminal inside bowler doesn't see it.
+	// Prints to stderr. Terminal inside bowler doesn't see it.
 	ex.printStackTrace()
-	// Alternately
-	println("Exception: ${ex}")
+	// Print to BStudio Terminal
+	println("\nGame controller instantiation exception: ${ex}")
+//	println("1---------------------------------------")
+//	println(ex.toString());
+//	println("2---------------------------------------")
+//	println(ex.getMessage());
+//	println("3---------------------------------------")
+	println("\n"+ex.getStackTrace());  
+    
 }
-
 if(gameController==null){
 	println "Null game controller. Exiting script"
 	return 
 }
 println "Connected!!"
+sleep(20000)
 
 //int [] data = 
 gameController.getData() 
