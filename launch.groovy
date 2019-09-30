@@ -13,9 +13,8 @@ def gameController =null
 try{
 	 gameController = ScriptingEngine.gitScriptRun(
 	            "https://gist.github.com/javatechs/a3c57bf6e54b60d1f4d773c9c7c14b52", // git location of the library
-	            "LoadGameController.groovy" , // file to load
-	            // Parameters passed to the function
-	            ["GameController_22"]
+	            "LoadGameController.groovy",	// file to load
+	            ["GameController_22"]			// Parameters passed to the function
 	            );
       println "Game controller instantiated"
 }catch (Exception ex) {
