@@ -802,7 +802,7 @@
 		<file>DefaultDhSolver.groovy</file>
 	</kinematics>
 <link>
-	<name>baseTilt</name>
+	<name>basePan</name>
 	<deviceName>hidDevice</deviceName>
 	<type>hidfast</type>
 	<index>11</index>
@@ -856,7 +856,7 @@
 
 </link>
 <link>
-	<name>basePan</name>
+	<name>baseTilt</name>
 	<deviceName>hidDevice</deviceName>
 	<type>hidfast</type>
 	<index>12</index>
@@ -943,7 +943,7 @@
 		<file>DefaultDhSolver.groovy</file>
 	</kinematics>
 <link>
-	<name>baseTilt</name>
+	<name>basePan</name>
 	<deviceName>hidDevice</deviceName>
 	<type>hidfast</type>
 	<index>14</index>
@@ -997,7 +997,7 @@
 
 </link>
 <link>
-	<name>basePan</name>
+	<name>baseTilt</name>
 	<deviceName>hidDevice</deviceName>
 	<type>hidfast</type>
 	<index>13</index>
