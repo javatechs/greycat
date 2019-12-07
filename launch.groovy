@@ -35,7 +35,13 @@ if(gameController==null){
 	return 
 }
 println "Connected!!"
-sleep(20000)
+println "3"
+sleep(1000)
+println "2"
+sleep(1000)
+println "1"
+sleep(1000)
+println "GO!!"
 
 //int [] data = 
 gameController.getData() 
