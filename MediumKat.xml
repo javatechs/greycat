@@ -802,10 +802,10 @@
 		<file>DefaultDhSolver.groovy</file>
 	</kinematics>
 <link>
-	<name>basePan</name>
+	<name>baseTilt</name>
 	<deviceName>hidDevice</deviceName>
 	<type>hidfast</type>
-	<index>11</index>
+	<index>12</index>
 	<scale>-0.512698413</scale>
 	<upperLimit>140.0</upperLimit>
 	<lowerLimit>5.624999999999999</lowerLimit>
@@ -854,12 +854,11 @@
 		<Alpha>-90.0</Alpha>
 	</DHParameters>
 
-</link>
-<link>
-	<name>baseTilt</name>
+</link><link>
+	<name>basePan</name>
 	<deviceName>hidDevice</deviceName>
 	<type>hidfast</type>
-	<index>12</index>
+	<index>11</index>
 	<scale>-0.714</scale>
 	<upperLimit>131.25000000000003</upperLimit>
 	<lowerLimit>5.0</lowerLimit>
@@ -910,6 +909,7 @@
 
 </link>
 
+
 <ZframeToRAS
 >	<x>0.0</x>
 	<y>0.0</y>
@@ -941,12 +941,11 @@
 	<kinematics>
 		<git>https://github.com/madhephaestus/carl-the-hexapod.git</git>
 		<file>DefaultDhSolver.groovy</file>
-	</kinematics>
-<link>
-	<name>basePan</name>
+	</kinematics><link>
+	<name>baseTilt</name>
 	<deviceName>hidDevice</deviceName>
 	<type>hidfast</type>
-	<index>14</index>
+	<index>13</index>
 	<scale>-0.512698413</scale>
 	<upperLimit>170.11753731343288</upperLimit>
 	<lowerLimit>3.749999999999994</lowerLimit>
@@ -995,12 +994,11 @@
 		<Alpha>-90.0</Alpha>
 	</DHParameters>
 
-</link>
-<link>
-	<name>baseTilt</name>
+</link><link>
+	<name>basePan</name>
 	<deviceName>hidDevice</deviceName>
 	<type>hidfast</type>
-	<index>13</index>
+	<index>14</index>
 	<scale>-0.512698413</scale>
 	<upperLimit>180.0</upperLimit>
 	<lowerLimit>0.0</lowerLimit>
@@ -1050,6 +1048,8 @@
 	</DHParameters>
 
 </link>
+
+
 
 <ZframeToRAS
 >	<x>0.0</x>
