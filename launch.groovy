@@ -1,3 +1,9 @@
+def devices = DeviceManager.listConnectedDevice()
+println "# Devices: " + devices.size() + " Device names:"
+for (int i = 0; i < devices.size(); i++) {
+println "- " + devices.get(i)
+}
+
 def cat =ScriptingEngine.gitScriptRun(	"https://github.com/OperationSmallKat/SmallKat_V2.git", 
 								"loadRobot.groovy",
                                         [
@@ -34,6 +40,26 @@ if(gameController==null){
 	println "Null game controller. Exiting script"
 	return 
 }
+
+///////////////////////////////////////////////
+def launcherController =null
+if (0) {
+try{
+	 launcherController = ScriptingEngine.gitScriptRun(
+	            "https://gist.github.com/javatechs/69be95abdd1231fe128291a9b9e19c3a", // git location of the library
+	            "LoadLauncher.groovy",	// file to load
+	            ["Launcher_22"]			// Parameters passed to the function
+	            );
+      println "Launcher controller instantiated"
+}catch (Exception ex) {
+	// Prints to stderr. Terminal inside bowler doesn't see it.
+	ex.printStackTrace()
+	// Print to BStudio Terminal
+//	println("\Launcher controller instantiation exception: ${ex}")
+	println("\n"+ex.getStackTrace());  
+    
+}
+}
 println "Connected!!"
 println "3"
 sleep(1000)
@@ -66,8 +92,8 @@ while (!Thread.interrupted() ){
 		rydata+=256
 		*/
 	double scale = 0.15
-	double displacement = 40*(scale*xdata/255.0-scale/2)
-	double displacementY =-10*(scale*rxdata/255.0-scale/2)
+	double displacement = 40*(scale*(xdata/255.0)-scale/2)
+	double displacementY =-10*(scale*(rxdata/255.0)-scale/2)
 	
 	double rot =((scale*2.0*rzdata/255.0)-scale)*-2.5
 	double rotx =((rxdata/255.0)-scale/2)*5
@@ -80,7 +106,7 @@ while (!Thread.interrupted() ){
 	}
 	try{
 		if(Math.abs(displacement)>0.16 || Math.abs(rot)>0.16 ||Math.abs(displacementY)>0.16  ){
-			println "displacement "+displacement+" rot "+rot+" straif = "+displacementY
+//			println "displacement "+displacement+" rot "+rot+" straif = "+displacementY
 			
 			
 			TransformNR move = new TransformNR(displacement,displacementY,0,new RotationNR(rotx,rot,roty))
