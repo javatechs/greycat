@@ -18,7 +18,7 @@ println "Cat loaded, searching for game controller"
 def gameController =null
 try{
 	 gameController = ScriptingEngine.gitScriptRun(
-	            "https://gist.github.com/javatechs/6c2454ada6192111f4d1d2ff36b8d521", // git location of the library
+	            "https://gist.github.com/javatechs/6c2454ada6192111f4d1d2ff36b8d521.git", // git location of the library
 	            "LoadGameController.groovy",	// file to load
 	            ["GameController_22"]			// Parameters passed to the function
 	            );
