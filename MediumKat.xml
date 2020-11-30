@@ -32,8 +32,10 @@
 	<upperVelocity>1.0E8</upperVelocity>
 	<lowerVelocity>-1.0E8</lowerVelocity>
 	<staticOffset>97.33455882352942</staticOffset>
+	<deviceTheoreticalMax>180.0</deviceTheoreticalMax>
+	<deviceTheoreticalMin>0.0</deviceTheoreticalMin>
 	<isLatch>true</isLatch>
-	<indexLatch>105</indexLatch>
+	<indexLatch>105.0</indexLatch>
 	<isStopOnLatch>false</isStopOnLatch>
 	<homingTPS>10000000</homingTPS>
 
@@ -86,8 +88,10 @@
 	<upperVelocity>1.0E8</upperVelocity>
 	<lowerVelocity>-1.0E8</lowerVelocity>
 	<staticOffset>99.6783088235294</staticOffset>
+	<deviceTheoreticalMax>180.0</deviceTheoreticalMax>
+	<deviceTheoreticalMin>0.0</deviceTheoreticalMin>
 	<isLatch>true</isLatch>
-	<indexLatch>97</indexLatch>
+	<indexLatch>97.0</indexLatch>
 	<isStopOnLatch>false</isStopOnLatch>
 	<homingTPS>10000000</homingTPS>
 
@@ -140,8 +144,10 @@
 	<upperVelocity>1.0E8</upperVelocity>
 	<lowerVelocity>-1.0E8</lowerVelocity>
 	<staticOffset>92.72607550482878</staticOffset>
+	<deviceTheoreticalMax>180.0</deviceTheoreticalMax>
+	<deviceTheoreticalMin>0.0</deviceTheoreticalMin>
 	<isLatch>true</isLatch>
-	<indexLatch>145</indexLatch>
+	<indexLatch>145.0</indexLatch>
 	<isStopOnLatch>false</isStopOnLatch>
 	<homingTPS>10000000</homingTPS>
 
@@ -227,8 +233,10 @@
 	<upperVelocity>1.0E8</upperVelocity>
 	<lowerVelocity>-1.0E8</lowerVelocity>
 	<staticOffset>88.31801470588238</staticOffset>
+	<deviceTheoreticalMax>180.0</deviceTheoreticalMax>
+	<deviceTheoreticalMin>0.0</deviceTheoreticalMin>
 	<isLatch>true</isLatch>
-	<indexLatch>105</indexLatch>
+	<indexLatch>105.0</indexLatch>
 	<isStopOnLatch>false</isStopOnLatch>
 	<homingTPS>10000000</homingTPS>
 
@@ -281,8 +289,10 @@
 	<upperVelocity>1.0E8</upperVelocity>
 	<lowerVelocity>-1.0E8</lowerVelocity>
 	<staticOffset>88.61093047711398</staticOffset>
+	<deviceTheoreticalMax>180.0</deviceTheoreticalMax>
+	<deviceTheoreticalMin>0.0</deviceTheoreticalMin>
 	<isLatch>true</isLatch>
-	<indexLatch>97</indexLatch>
+	<indexLatch>97.0</indexLatch>
 	<isStopOnLatch>false</isStopOnLatch>
 	<homingTPS>10000000</homingTPS>
 
@@ -335,8 +345,10 @@
 	<upperVelocity>1.0E8</upperVelocity>
 	<lowerVelocity>-1.0E8</lowerVelocity>
 	<staticOffset>115.7793642629696</staticOffset>
+	<deviceTheoreticalMax>180.0</deviceTheoreticalMax>
+	<deviceTheoreticalMin>0.0</deviceTheoreticalMin>
 	<isLatch>true</isLatch>
-	<indexLatch>145</indexLatch>
+	<indexLatch>145.0</indexLatch>
 	<isStopOnLatch>false</isStopOnLatch>
 	<homingTPS>10000000</homingTPS>
 
@@ -422,8 +434,10 @@
 	<upperVelocity>1.0E8</upperVelocity>
 	<lowerVelocity>-1.0E8</lowerVelocity>
 	<staticOffset>90.27573529411764</staticOffset>
+	<deviceTheoreticalMax>180.0</deviceTheoreticalMax>
+	<deviceTheoreticalMin>0.0</deviceTheoreticalMin>
 	<isLatch>true</isLatch>
-	<indexLatch>105</indexLatch>
+	<indexLatch>105.0</indexLatch>
 	<isStopOnLatch>false</isStopOnLatch>
 	<homingTPS>10000000</homingTPS>
 
@@ -476,8 +490,10 @@
 	<upperVelocity>1.0E8</upperVelocity>
 	<lowerVelocity>-1.0E8</lowerVelocity>
 	<staticOffset>87.02622648664057</staticOffset>
+	<deviceTheoreticalMax>180.0</deviceTheoreticalMax>
+	<deviceTheoreticalMin>0.0</deviceTheoreticalMin>
 	<isLatch>true</isLatch>
-	<indexLatch>97</indexLatch>
+	<indexLatch>97.0</indexLatch>
 	<isStopOnLatch>false</isStopOnLatch>
 	<homingTPS>10000000</homingTPS>
 
@@ -525,13 +541,15 @@
 	<type>hidfast</type>
 	<index>15</index>
 	<scale>-0.512698413</scale>
-	<upperLimit>180</upperLimit>
+	<upperLimit>180.0</upperLimit>
 	<lowerLimit>7.472014925373134</lowerLimit>
 	<upperVelocity>1.0E8</upperVelocity>
 	<lowerVelocity>-1.0E8</lowerVelocity>
 	<staticOffset>144.07020162849057</staticOffset>
+	<deviceTheoreticalMax>180.0</deviceTheoreticalMax>
+	<deviceTheoreticalMin>0.0</deviceTheoreticalMin>
 	<isLatch>true</isLatch>
-	<indexLatch>145</indexLatch>
+	<indexLatch>145.0</indexLatch>
 	<isStopOnLatch>false</isStopOnLatch>
 	<homingTPS>10000000</homingTPS>
 
@@ -617,8 +635,10 @@
 	<upperVelocity>1.0E8</upperVelocity>
 	<lowerVelocity>-1.0E8</lowerVelocity>
 	<staticOffset>75.60661764705884</staticOffset>
+	<deviceTheoreticalMax>180.0</deviceTheoreticalMax>
+	<deviceTheoreticalMin>0.0</deviceTheoreticalMin>
 	<isLatch>true</isLatch>
-	<indexLatch>105</indexLatch>
+	<indexLatch>105.0</indexLatch>
 	<isStopOnLatch>false</isStopOnLatch>
 	<homingTPS>10000000</homingTPS>
 
@@ -671,8 +691,10 @@
 	<upperVelocity>1.0E8</upperVelocity>
 	<lowerVelocity>-1.0E8</lowerVelocity>
 	<staticOffset>48.5294117647059</staticOffset>
+	<deviceTheoreticalMax>180.0</deviceTheoreticalMax>
+	<deviceTheoreticalMin>0.0</deviceTheoreticalMin>
 	<isLatch>true</isLatch>
-	<indexLatch>97</indexLatch>
+	<indexLatch>97.0</indexLatch>
 	<isStopOnLatch>false</isStopOnLatch>
 	<homingTPS>10000000</homingTPS>
 
@@ -725,8 +747,10 @@
 	<upperVelocity>1.0E8</upperVelocity>
 	<lowerVelocity>-1.0E8</lowerVelocity>
 	<staticOffset>120.08823529411765</staticOffset>
+	<deviceTheoreticalMax>180.0</deviceTheoreticalMax>
+	<deviceTheoreticalMin>0.0</deviceTheoreticalMin>
 	<isLatch>true</isLatch>
-	<indexLatch>145</indexLatch>
+	<indexLatch>145.0</indexLatch>
 	<isStopOnLatch>false</isStopOnLatch>
 	<homingTPS>10000000</homingTPS>
 
@@ -812,8 +836,10 @@
 	<upperVelocity>1.0E8</upperVelocity>
 	<lowerVelocity>-1.0E8</lowerVelocity>
 	<staticOffset>72.68190298507464</staticOffset>
+	<deviceTheoreticalMax>180.0</deviceTheoreticalMax>
+	<deviceTheoreticalMin>0.0</deviceTheoreticalMin>
 	<isLatch>true</isLatch>
-	<indexLatch>235</indexLatch>
+	<indexLatch>180.0</indexLatch>
 	<isStopOnLatch>false</isStopOnLatch>
 	<homingTPS>10000000</homingTPS>
 
@@ -854,7 +880,8 @@
 		<Alpha>-90.0</Alpha>
 	</DHParameters>
 
-</link><link>
+</link>
+<link>
 	<name>basePan</name>
 	<deviceName>hidDevice</deviceName>
 	<type>hidfast</type>
@@ -865,8 +892,10 @@
 	<upperVelocity>1.0E8</upperVelocity>
 	<lowerVelocity>-1.0E8</lowerVelocity>
 	<staticOffset>102.79738257243196</staticOffset>
+	<deviceTheoreticalMax>180.0</deviceTheoreticalMax>
+	<deviceTheoreticalMin>0.0</deviceTheoreticalMin>
 	<isLatch>true</isLatch>
-	<indexLatch>128</indexLatch>
+	<indexLatch>128.0</indexLatch>
 	<isStopOnLatch>false</isStopOnLatch>
 	<homingTPS>10000000</homingTPS>
 
@@ -909,7 +938,6 @@
 
 </link>
 
-
 <ZframeToRAS
 >	<x>0.0</x>
 	<y>0.0</y>
@@ -941,7 +969,8 @@
 	<kinematics>
 		<git>https://github.com/madhephaestus/carl-the-hexapod.git</git>
 		<file>DefaultDhSolver.groovy</file>
-	</kinematics><link>
+	</kinematics>
+<link>
 	<name>baseTilt</name>
 	<deviceName>hidDevice</deviceName>
 	<type>hidfast</type>
@@ -952,8 +981,10 @@
 	<upperVelocity>1.0E8</upperVelocity>
 	<lowerVelocity>-1.0E8</lowerVelocity>
 	<staticOffset>136.9202382375873</staticOffset>
+	<deviceTheoreticalMax>180.0</deviceTheoreticalMax>
+	<deviceTheoreticalMin>0.0</deviceTheoreticalMin>
 	<isLatch>true</isLatch>
-	<indexLatch>235</indexLatch>
+	<indexLatch>180.0</indexLatch>
 	<isStopOnLatch>false</isStopOnLatch>
 	<homingTPS>10000000</homingTPS>
 
@@ -994,7 +1025,8 @@
 		<Alpha>-90.0</Alpha>
 	</DHParameters>
 
-</link><link>
+</link>
+<link>
 	<name>basePan</name>
 	<deviceName>hidDevice</deviceName>
 	<type>hidfast</type>
@@ -1005,8 +1037,10 @@
 	<upperVelocity>1.0E8</upperVelocity>
 	<lowerVelocity>-1.0E8</lowerVelocity>
 	<staticOffset>81.65928703988834</staticOffset>
+	<deviceTheoreticalMax>180.0</deviceTheoreticalMax>
+	<deviceTheoreticalMin>0.0</deviceTheoreticalMin>
 	<isLatch>true</isLatch>
-	<indexLatch>128</indexLatch>
+	<indexLatch>128.0</indexLatch>
 	<isStopOnLatch>false</isStopOnLatch>
 	<homingTPS>10000000</homingTPS>
 
@@ -1048,8 +1082,6 @@
 	</DHParameters>
 
 </link>
-
-
 
 <ZframeToRAS
 >	<x>0.0</x>
